@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "QQ空间修复",
+    "version": "0.0.1",
+    "description": "对PCQQ空间进行修复、优化、改进。同时移除已被现代浏览器弃用的技术（如Flash）",
+    "default_locale": "zh_CN",
+    "icons": {
+        "128": "qzone_icon_128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "*://*.qzone.qq.com/*",
+        "webRequestBlocking"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.qzone.qq.com/*"
+            ],
+            "run_at": "document_idle",
+            "css": [
+                "qzone_plus.css"
+            ],
+            "js": [
+                "qzone_plus.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    }
+}

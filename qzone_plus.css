@@ -1,0 +1,38 @@
+.action-bar {
+    display: none!important;
+}
+
+.top-fix-bar .top-nav .nav-list-inner a:hover, .top-fix-bar .top-nav .nav-list-inner a.nav-hover, .top-fix-bar .user-info .user-home:hover, .top-fix-bar .user-info .logout:hover, .top-fix-bar .user-info .logout-new:hover, .top-fix-bar .back-to-icenter:hover, .top-fix-bar .music-container .music-panel .music-dynamic, .top-fix-bar .music-container .music-panel .music-play {
+    background-color: #00000054!important; 
+}
+
+.top-fix-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(20px);
+}
+
+.top-fix-bar .top-fix-inner {
+    background-color: #1f1f1f9d!important;
+}
+
+.background-container {
+    background: none!important;
+}
+
+body {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590748188773&di=3bff9ed8ba3d6ed4d09c1e0daaeff2e4&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F94o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F8b82b9014a90f6034b226f673e12b31bb051ed04.jpg")!important;
+}
+
+.head-nav .head-nav-menu li a {
+    color: #ffffff!important;
+    font-weight: bold;
+}
