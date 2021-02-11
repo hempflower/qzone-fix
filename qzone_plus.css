@@ -23,7 +23,7 @@
 .background-container {
     background: none!important;
 }
-
+/* 自定义背景 */
 body {
     background-position: center;
     background-attachment: fixed;
@@ -35,4 +35,72 @@ body {
 .head-nav .head-nav-menu li a {
     color: #ffffff!important;
     font-weight: bold;
+}
+/* 导航栏 */
+.head-nav{
+    border-radius:10px;
+
+    background-color: #ffffffb7!important;
+}
+
+.feed-v9 .f-single {
+    background-color: #ffffffb7;
+    border-radius: 10px;
+}
+/* 侧栏 */
+.mod-side-nav {
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background-color: #ffffffb7;
+}
+/* 侧栏选中 */
+.mod-side-nav, .mod-side-nav a {
+    color: #0f464c;
+}
+/* 说说 */
+.mod-side-nav .current .qz-grid, .mod-side-nav li:hover .qz-grid, .top-toggle:hover {
+    background-color: #ffffffb7;
+    border-radius: 10px;
+}
+/* 说说刷新 */
+.fn-feed-control-v2 {
+    background-color: #ffffffb7;
+    border-radius: 10px;
+}
+.fn-feed-control-v2 .feed-control-tab .item-on-slt {
+    background: none;
+}
+.fn-feed-control-v2 .feed-control-tab .item-on {
+
+    border-style: none;
+}
+.fn-feed-control-v2 .control-inner {
+    border-color: #ffffff00;
+}
+/* 头像旁边的黄钻 */
+.layout-head .user-vip-info {
+    display: none;
+}
+.layout-head .head-detail-info .detail-info-con {
+    display: none;
+}
+.layout-head .head-detail-info .detail-info-level {
+    display: none;
+}
+/* 签到 */
+.fn-checkin-btn .checkin-btn, .fn-checkin-btn {
+    border-radius: 10px;
+}
+/* 访客 */
+.icenter-right-mod {
+    background-color: #ffffffb7;
+    border-radius: 10px;
+}
+/* 奇怪的框框 */
+* {
+    border-radius: 10px;
+}
+/* 主页 */
+.lay_background {
+    background-image: none;
 }
